@@ -23,7 +23,7 @@ public class JDRate {
     private int imageListCount;
     private String vTagStatistics;
     private String csv;
-    private List<Comments> comments;
+    private List<JDComments> comments;
     public void setProductAttr(String productAttr) {
          this.productAttr = productAttr;
      }
@@ -101,10 +101,10 @@ public class JDRate {
          return csv;
      }
 
-    public void setComments(List<Comments> comments) {
+    public void setComments(List<JDComments> comments) {
          this.comments = comments;
      }
-     public List<Comments> getComments() {
+     public List<JDComments> getComments() {
          return comments;
      }
 

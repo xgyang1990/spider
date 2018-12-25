@@ -1,0 +1,65 @@
+2018-12-25 10:33:21 AbstractTestContextBootstrapper.java INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bi.spider.SpiderApplicationTests], using SpringBootContextLoader
+2018-12-25 10:33:21 AbstractContextLoader.java INFO Could not detect default resource locations for test class [com.bi.spider.SpiderApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-25 10:33:21 AnnotationConfigContextLoaderUtils.java INFO Could not detect default configuration classes for test class [com.bi.spider.SpiderApplicationTests]: SpiderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-25 10:33:21 SpringBootTestContextBootstrapper.java INFO Found @SpringBootConfiguration com.bi.spider.SpiderApplication for test class com.bi.spider.SpiderApplicationTests
+2018-12-25 10:33:21 AbstractTestContextBootstrapper.java INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-25 10:33:21 AbstractTestContextBootstrapper.java INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e20b53a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71809907, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3ce1e309, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6aba2b86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158da8e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74e52303, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3bb9a3ff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@661972b0]
+2018-12-25 10:33:21 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 10:33:21 StartupInfoLogger.java INFO Starting SpiderApplicationTests on WITSC02WF2FKHTD with PID 15211 (started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 10:33:21 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 10:33:23 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:33:23 StartupInfoLogger.java INFO Started SpiderApplicationTests in 1.844 seconds (JVM running for 2.522)
+2018-12-25 10:33:23 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:33:33 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 10:33:33 StartupInfoLogger.java INFO Starting SpiderApplication on WITSC02WF2FKHTD with PID 15260 (/Users/xyang137/Developer/BI/spider/target/classes started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 10:33:33 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 10:33:35 TomcatWebServer.java INFO Tomcat initialized with port(s): 8081 (http)
+2018-12-25 10:33:35 ServletWebServerApplicationContext.java INFO Root WebApplicationContext: initialization completed in 1320 ms
+2018-12-25 10:33:35 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:33:35 TomcatWebServer.java INFO Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-25 10:33:35 StartupInfoLogger.java INFO Started SpiderApplication in 2.448 seconds (JVM running for 3.028)
+2018-12-25 10:34:01 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:34:08 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 10:34:09 StartupInfoLogger.java INFO Starting SpiderApplication on WITSC02WF2FKHTD with PID 15263 (/Users/xyang137/Developer/BI/spider/target/classes started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 10:34:09 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 10:34:10 TomcatWebServer.java INFO Tomcat initialized with port(s): 8081 (http)
+2018-12-25 10:34:10 ServletWebServerApplicationContext.java INFO Root WebApplicationContext: initialization completed in 1261 ms
+2018-12-25 10:34:10 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:34:10 TomcatWebServer.java INFO Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-25 10:34:10 StartupInfoLogger.java INFO Started SpiderApplication in 2.324 seconds (JVM running for 2.906)
+2018-12-25 10:34:33 FrameworkServlet.java INFO Initializing Servlet 'dispatcherServlet'
+2018-12-25 10:34:33 FrameworkServlet.java INFO Completed initialization in 5 ms
+2018-12-25 10:34:33 Spider.java INFO Spider sclub.jd.com started!
+2018-12-25 10:34:35 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:34:35 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:34:35 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=1
+2018-12-25 10:34:35 JDSpider.java INFO JSON result:10
+2018-12-25 10:34:38 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:34:37 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:34:38 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=2
+2018-12-25 10:34:38 JDSpider.java INFO JSON result:9
+2018-12-25 10:34:40 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:34:40 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:34:40 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=3
+2018-12-25 10:34:40 JDSpider.java INFO JSON result:0
+2018-12-25 10:34:42 Spider.java INFO Spider sclub.jd.com closed! 3 pages downloaded.
+2018-12-25 10:35:30 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:36:20 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 10:36:20 StartupInfoLogger.java INFO Starting SpiderApplication on WITSC02WF2FKHTD with PID 15358 (/Users/xyang137/Developer/BI/spider/target/classes started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 10:36:20 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 10:36:21 TomcatWebServer.java INFO Tomcat initialized with port(s): 8081 (http)
+2018-12-25 10:36:21 ServletWebServerApplicationContext.java INFO Root WebApplicationContext: initialization completed in 1268 ms
+2018-12-25 10:36:22 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:36:22 TomcatWebServer.java INFO Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-25 10:36:22 StartupInfoLogger.java INFO Started SpiderApplication in 2.395 seconds (JVM running for 2.951)
+2018-12-25 10:36:41 FrameworkServlet.java INFO Initializing Servlet 'dispatcherServlet'
+2018-12-25 10:36:41 FrameworkServlet.java INFO Completed initialization in 5 ms
+2018-12-25 10:36:41 Spider.java INFO Spider sclub.jd.com started!
+2018-12-25 10:36:42 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:36:42 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:36:42 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=1
+2018-12-25 10:36:43 JDSpider.java INFO JSON result:10
+2018-12-25 10:36:45 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:36:45 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:36:45 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=2
+2018-12-25 10:36:45 JDSpider.java INFO JSON result:9
+2018-12-25 10:36:48 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:36:48 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:36:48 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=3
+2018-12-25 10:36:48 JDSpider.java INFO JSON result:0
+2018-12-25 10:36:50 Spider.java INFO Spider sclub.jd.com closed! 3 pages downloaded.
+2018-12-25 10:42:47 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'

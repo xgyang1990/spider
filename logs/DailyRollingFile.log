@@ -1,0 +1,468 @@
+2018-12-25 10:42:51 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 10:42:52 StartupInfoLogger.java INFO Starting SpiderApplication on WITSC02WF2FKHTD with PID 15637 (/Users/xyang137/Developer/BI/spider/target/classes started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 10:42:52 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 10:42:53 TomcatWebServer.java INFO Tomcat initialized with port(s): 8081 (http)
+2018-12-25 10:42:53 ServletWebServerApplicationContext.java INFO Root WebApplicationContext: initialization completed in 1426 ms
+2018-12-25 10:42:54 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 10:42:54 TomcatWebServer.java INFO Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-25 10:42:54 StartupInfoLogger.java INFO Started SpiderApplication in 2.763 seconds (JVM running for 3.419)
+2018-12-25 10:43:04 FrameworkServlet.java INFO Initializing Servlet 'dispatcherServlet'
+2018-12-25 10:43:04 FrameworkServlet.java INFO Completed initialization in 6 ms
+2018-12-25 10:43:04 Spider.java INFO Spider sclub.jd.com started!
+2018-12-25 10:43:06 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 10:43:06 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 10:43:06 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=1
+2018-12-25 10:43:06 JDSpider.java INFO JSON result:10
+2018-12-25 10:43:09 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=2
+2018-12-25 10:43:09 JDSpider.java INFO JSON result:9
+2018-12-25 10:43:11 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=3
+2018-12-25 10:43:11 JDSpider.java INFO JSON result:0
+2018-12-25 10:43:13 Spider.java INFO Spider sclub.jd.com closed! 3 pages downloaded.
+2018-12-25 14:44:06 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:30:38 AbstractTestContextBootstrapper.java INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bi.spider.SpiderApplicationTests], using SpringBootContextLoader
+2018-12-25 15:30:38 AbstractContextLoader.java INFO Could not detect default resource locations for test class [com.bi.spider.SpiderApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-25 15:30:38 AnnotationConfigContextLoaderUtils.java INFO Could not detect default configuration classes for test class [com.bi.spider.SpiderApplicationTests]: SpiderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-25 15:30:38 SpringBootTestContextBootstrapper.java INFO Found @SpringBootConfiguration com.bi.spider.SpiderApplication for test class com.bi.spider.SpiderApplicationTests
+2018-12-25 15:30:39 AbstractTestContextBootstrapper.java INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-25 15:30:39 AbstractTestContextBootstrapper.java INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e005c4b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4567f35d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ffead27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20]
+2018-12-25 15:30:39 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 15:30:39 StartupInfoLogger.java INFO Starting SpiderApplicationTests on WITSC02WF2FKHTD with PID 31575 (started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 15:30:39 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 15:30:41 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-12-25 15:30:41 ConditionEvaluationReportLoggingListener.java INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-25 15:30:41 SpringApplication.java ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	... 43 more
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error building SqlSession.
+### The error may exist in dao/DABAOComment-mapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:26)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:54)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:38)
+	at com.bi.spider.utils.MyBatisSessionFactory.getSessionFactory(MyBatisSessionFactory.java:20)
+	at com.bi.spider.SpiderApp.BaseSpider.<clinit>(BaseSpider.java:21)
+	... 50 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:92)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	... 53 more
+Caused by: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:110)
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:97)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:320)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:107)
+	... 55 more
+2018-12-25 15:30:41 TestContextManager.java ERROR Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc] to prepare test instance [com.bi.spider.SpiderApplicationTests@323e8306]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 27 more
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	... 43 more
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error building SqlSession.
+### The error may exist in dao/DABAOComment-mapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:26)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:54)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:38)
+	at com.bi.spider.utils.MyBatisSessionFactory.getSessionFactory(MyBatisSessionFactory.java:20)
+	at com.bi.spider.SpiderApp.BaseSpider.<clinit>(BaseSpider.java:21)
+	... 50 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:92)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	... 53 more
+Caused by: java.io.IOException: Could not find resource dao/DABAOComment-mapper.xml
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:110)
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:97)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:320)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:107)
+	... 55 more
+2018-12-25 15:31:32 AbstractTestContextBootstrapper.java INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bi.spider.SpiderApplicationTests], using SpringBootContextLoader
+2018-12-25 15:31:32 AbstractContextLoader.java INFO Could not detect default resource locations for test class [com.bi.spider.SpiderApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-25 15:31:32 AnnotationConfigContextLoaderUtils.java INFO Could not detect default configuration classes for test class [com.bi.spider.SpiderApplicationTests]: SpiderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-25 15:31:32 SpringBootTestContextBootstrapper.java INFO Found @SpringBootConfiguration com.bi.spider.SpiderApplication for test class com.bi.spider.SpiderApplicationTests
+2018-12-25 15:31:32 AbstractTestContextBootstrapper.java INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-25 15:31:32 AbstractTestContextBootstrapper.java INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e005c4b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4567f35d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ffead27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20]
+2018-12-25 15:31:32 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 15:31:32 StartupInfoLogger.java INFO Starting SpiderApplicationTests on WITSC02WF2FKHTD with PID 31619 (started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 15:31:32 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 15:31:33 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: com/bi/spider/dao/comment (wrong name: com/bi/spider/dao/Comment)
+2018-12-25 15:31:33 ConditionEvaluationReportLoggingListener.java INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-25 15:31:33 SpringApplication.java ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: com/bi/spider/dao/comment (wrong name: com/bi/spider/dao/Comment)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.NoClassDefFoundError: com/bi/spider/dao/comment (wrong name: com/bi/spider/dao/Comment)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:178)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:256)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:395)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:322)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:107)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:92)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:38)
+	at com.bi.spider.utils.MyBatisSessionFactory.getSessionFactory(MyBatisSessionFactory.java:20)
+	at com.bi.spider.SpiderApp.BaseSpider.<clinit>(BaseSpider.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	... 43 more
+2018-12-25 15:31:33 TestContextManager.java ERROR Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc] to prepare test instance [com.bi.spider.SpiderApplicationTests@27f0ad19]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseSpider' defined in file [/Users/xyang137/Developer/BI/spider/target/classes/com/bi/spider/SpiderApp/BaseSpider.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: com/bi/spider/dao/comment (wrong name: com/bi/spider/dao/Comment)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 27 more
+Caused by: java.lang.NoClassDefFoundError: com/bi/spider/dao/comment (wrong name: com/bi/spider/dao/Comment)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:178)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:256)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:395)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:322)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:107)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:92)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:52)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:38)
+	at com.bi.spider.utils.MyBatisSessionFactory.getSessionFactory(MyBatisSessionFactory.java:20)
+	at com.bi.spider.SpiderApp.BaseSpider.<clinit>(BaseSpider.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	... 43 more
+2018-12-25 15:32:26 AbstractTestContextBootstrapper.java INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bi.spider.SpiderApplicationTests], using SpringBootContextLoader
+2018-12-25 15:32:26 AbstractContextLoader.java INFO Could not detect default resource locations for test class [com.bi.spider.SpiderApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-25 15:32:26 AnnotationConfigContextLoaderUtils.java INFO Could not detect default configuration classes for test class [com.bi.spider.SpiderApplicationTests]: SpiderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-25 15:32:26 SpringBootTestContextBootstrapper.java INFO Found @SpringBootConfiguration com.bi.spider.SpiderApplication for test class com.bi.spider.SpiderApplicationTests
+2018-12-25 15:32:26 AbstractTestContextBootstrapper.java INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-25 15:32:26 AbstractTestContextBootstrapper.java INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e005c4b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4567f35d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ffead27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20]
+2018-12-25 15:32:26 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 15:32:26 StartupInfoLogger.java INFO Starting SpiderApplicationTests on WITSC02WF2FKHTD with PID 31662 (started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 15:32:26 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 15:32:28 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:32:28 StartupInfoLogger.java INFO Started SpiderApplicationTests in 2.005 seconds (JVM running for 2.654)
+2018-12-25 15:32:29 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:32:41 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 15:32:41 StartupInfoLogger.java INFO Starting SpiderApplication on WITSC02WF2FKHTD with PID 31668 (/Users/xyang137/Developer/BI/spider/target/classes started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 15:32:41 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 15:32:43 TomcatWebServer.java INFO Tomcat initialized with port(s): 8081 (http)
+2018-12-25 15:32:43 ServletWebServerApplicationContext.java INFO Root WebApplicationContext: initialization completed in 1446 ms
+2018-12-25 15:32:43 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:32:44 TomcatWebServer.java INFO Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-25 15:32:44 StartupInfoLogger.java INFO Started SpiderApplication in 2.691 seconds (JVM running for 3.403)
+2018-12-25 15:33:51 FrameworkServlet.java INFO Initializing Servlet 'dispatcherServlet'
+2018-12-25 15:33:51 FrameworkServlet.java INFO Completed initialization in 5 ms
+2018-12-25 15:33:51 Spider.java INFO Spider sclub.jd.com started!
+2018-12-25 15:33:53 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 15:33:53 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 15:33:53 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=1
+2018-12-25 15:33:53 JDCommentSpider.java INFO JSON result:10
+2018-12-25 15:33:56 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 15:33:56 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 15:33:56 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=2
+2018-12-25 15:33:56 JDCommentSpider.java INFO JSON result:9
+2018-12-25 15:33:59 ResponseProcessCookies.java WARN Cookie rejected [jwotest_product="99", version:0, domain:club.jd.com, path:/, expiry:Tue Jan 01 15:33:58 CST 2019] Illegal 'domain' attribute "club.jd.com". Domain of origin: "sclub.jd.com"
+2018-12-25 15:33:59 HttpClientDownloader.java INFO downloading page success https://sclub.jd.com/comment/productPageComments.action?productId=27929177390&score=0&sortType=5&pageSize=10&page=3
+2018-12-25 15:33:59 JDCommentSpider.java INFO JSON result:0
+2018-12-25 15:34:01 Spider.java INFO Spider sclub.jd.com closed! 3 pages downloaded.
+2018-12-25 15:36:11 Spider.java INFO Spider detail.tmall.com started!
+2018-12-25 15:36:17 HttpClientDownloader.java INFO downloading page success https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.5.695219eehFXup3&id=543236066128&skuId=3268344153708&user_id=648580690&cat_id=53384001&is_b=1&rn=ce261a4f0ebd92566e8fbdfd4e349906
+2018-12-25 15:36:20 Spider.java INFO Spider detail.tmall.com closed! 1 pages downloaded.
+2018-12-25 15:36:31 Spider.java INFO Spider rate.tmall.com started!
+2018-12-25 15:36:32 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=1
+2018-12-25 15:36:32 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:34 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=2
+2018-12-25 15:36:34 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:36 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=3
+2018-12-25 15:36:36 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:39 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=4
+2018-12-25 15:36:39 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:41 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=5
+2018-12-25 15:36:41 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:43 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=6
+2018-12-25 15:36:43 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:46 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=7
+2018-12-25 15:36:46 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:48 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=8
+2018-12-25 15:36:48 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:50 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=9
+2018-12-25 15:36:50 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:52 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=10
+2018-12-25 15:36:52 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:55 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=11
+2018-12-25 15:36:55 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:57 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=12
+2018-12-25 15:36:57 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:36:59 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=13
+2018-12-25 15:36:59 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:01 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=14
+2018-12-25 15:37:01 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:04 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=15
+2018-12-25 15:37:04 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:06 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=16
+2018-12-25 15:37:06 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:08 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=17
+2018-12-25 15:37:08 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:11 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=18
+2018-12-25 15:37:11 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:13 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=19
+2018-12-25 15:37:13 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:15 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=20
+2018-12-25 15:37:15 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:17 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=21
+2018-12-25 15:37:17 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:20 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=22
+2018-12-25 15:37:20 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:22 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=23
+2018-12-25 15:37:22 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:24 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=24
+2018-12-25 15:37:24 TmallCommentSpider.java INFO JSON result:20
+2018-12-25 15:37:26 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=25
+2018-12-25 15:37:26 TmallCommentSpider.java INFO JSON result:15
+2018-12-25 15:37:29 HttpClientDownloader.java INFO downloading page success https://rate.tmall.com/list_detail_rate.htm?itemId=543236066128&sellerId=648580690&currentPage=26
+2018-12-25 15:37:29 TmallCommentSpider.java INFO JSON result:0
+2018-12-25 15:37:31 Spider.java INFO Spider rate.tmall.com closed! 26 pages downloaded.
+2018-12-25 15:45:33 AbstractTestContextBootstrapper.java INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bi.spider.SpiderApplicationTests], using SpringBootContextLoader
+2018-12-25 15:45:33 AbstractContextLoader.java INFO Could not detect default resource locations for test class [com.bi.spider.SpiderApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-25 15:45:33 AnnotationConfigContextLoaderUtils.java INFO Could not detect default configuration classes for test class [com.bi.spider.SpiderApplicationTests]: SpiderApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-25 15:45:34 SpringBootTestContextBootstrapper.java INFO Found @SpringBootConfiguration com.bi.spider.SpiderApplication for test class com.bi.spider.SpiderApplicationTests
+2018-12-25 15:45:34 AbstractTestContextBootstrapper.java INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-25 15:45:34 AbstractTestContextBootstrapper.java INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e005c4b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4567f35d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ffead27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20]
+2018-12-25 15:45:34 Version.java INFO HV000001: Hibernate Validator 6.0.13.Final
+2018-12-25 15:45:34 StartupInfoLogger.java INFO Starting SpiderApplicationTests on WITSC02WF2FKHTD with PID 32351 (started by xyang137 in /Users/xyang137/Developer/BI/spider)
+2018-12-25 15:45:34 SpringApplication.java INFO No active profile set, falling back to default profiles: default
+2018-12-25 15:45:36 ExecutorConfigurationSupport.java INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 15:45:36 StartupInfoLogger.java INFO Started SpiderApplicationTests in 2.049 seconds (JVM running for 2.72)
+2018-12-25 15:45:36 ExecutorConfigurationSupport.java INFO Shutting down ExecutorService 'applicationTaskExecutor'

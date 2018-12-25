@@ -1,14 +1,15 @@
 package com.bi.spider.domain.entity;
 
-public class DABAOComment {
+public class Comment {
 
-    public DABAOComment(long id, String date, String content, String appendContent, String cmsSource, String sellerid) {
+    public Comment(long id, String date, String content, String appendContent, String cmsSource, String sellerid,String product) {
         this.id = id;
         this.date = date;
         this.content = content;
         this.appendContent = appendContent;
         this.cmsSource = cmsSource;
         this.sellerid = sellerid;
+        this.product = product;
     }
 
     public long getId() {
@@ -65,5 +66,13 @@ public class DABAOComment {
     private String appendContent;
     private String cmsSource;
     private String sellerid;
+    private String product;
 
+    public String getProduct() {
+        return product;
+    }
+
+    public void setProduct(String product) {
+        this.product = product;
+    }
 }
